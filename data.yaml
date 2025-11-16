@@ -1,0 +1,5 @@
+names:
+- cow
+nc: 1
+train: yolo_dataset/images/train
+val: yolo_dataset/images/val

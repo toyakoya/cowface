@@ -1,0 +1,14 @@
+*.pth
+
+LabeledImages/
+UnlabeldImages/
+val/
+yolo_dataset/
+runs/
+logs/
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+train/
+test/
+.git/
