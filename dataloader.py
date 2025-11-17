@@ -175,13 +175,13 @@ def make_transforms(img_size: int = 512):
     train_transform = transforms.Compose([
         transforms.RandomResizedCrop(img_size, scale=(0.6, 1.0), ratio=(0.75, 1.33)),
         transforms.RandomHorizontalFlip(p=0.5),
-        transforms.RandomApply([transforms.ColorJitter(0.4, 0.4, 0.4, 0.1)], p=0.8),
+        # transforms.RandomApply([transforms.ColorJitter(0.4, 0.4, 0.4, 0.1)], p=0.8),
         transforms.RandomGrayscale(p=0.02),
-        transforms.RandomApply([transforms.GaussianBlur(kernel_size=3)], p=0.2),
+        # transforms.RandomApply([transforms.GaussianBlur(kernel_size=3)], p=0.2),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.485, 0.456, 0.406],
                              std=[0.229, 0.224, 0.225]),
-        transforms.RandomErasing(p=0.25, scale=(0.02, 0.2), ratio=(0.3, 3.3), value='random')
+        # transforms.RandomErasing(p=0.25, scale=(0.02, 0.2), ratio=(0.3, 3.3), value='random')
     ])
     val_transform = transforms.Compose([
         transforms.Resize(int(img_size * 1.14)),

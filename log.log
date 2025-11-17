@@ -1,302 +1,164 @@
 使用设备: cuda
-Epoch 1/100
-训练 loss: 9.5107  acc: 0.0002
-验证 loss: 12.0302  acc: 0.0000
-Epoch 2/100
-训练 loss: 9.2862  acc: 0.0001
-验证 loss: 9.2090  acc: 0.0000
-Epoch 3/100
-训练 loss: 9.1054  acc: 0.0001
-验证 loss: 9.0853  acc: 0.0000
-Epoch 4/100
-训练 loss: 9.0342  acc: 0.0001
-验证 loss: 9.0346  acc: 0.0000
-Epoch 5/100
-训练 loss: 8.9890  acc: 0.0002
-验证 loss: 9.0320  acc: 0.0000
-Epoch 6/100
-训练 loss: 8.9167  acc: 0.0004
-验证 loss: 8.8939  acc: 0.0000
-Epoch 7/100
-训练 loss: 8.7703  acc: 0.0004
-验证 loss: 8.6892  acc: 0.0000
-Epoch 8/100
-训练 loss: 8.5259  acc: 0.0010
-验证 loss: 8.3896  acc: 0.0000
-Epoch 9/100
-训练 loss: 8.2415  acc: 0.0018
-验证 loss: 8.1900  acc: 0.0000
-Epoch 10/100
-训练 loss: 7.9232  acc: 0.0030
-验证 loss: 7.8061  acc: 0.0168
-Epoch 11/100
-训练 loss: 7.6105  acc: 0.0044
-验证 loss: 7.5262  acc: 0.0000
-Epoch 12/100
-训练 loss: 7.2881  acc: 0.0071
-验证 loss: 7.3750  acc: 0.0000
-Epoch 13/100
-训练 loss: 6.9811  acc: 0.0099
-验证 loss: 7.1558  acc: 0.0084
-Epoch 14/100
-训练 loss: 6.7288  acc: 0.0134
-验证 loss: 6.9782  acc: 0.0000
-Epoch 15/100
-训练 loss: 6.4970  acc: 0.0179
-验证 loss: 6.7983  acc: 0.0084
-Epoch 16/100
-训练 loss: 6.2876  acc: 0.0231
-验证 loss: 6.6824  acc: 0.0000
-Epoch 17/100
-训练 loss: 6.0992  acc: 0.0311
-验证 loss: 6.4642  acc: 0.0336
-Epoch 18/100
-训练 loss: 5.8007  acc: 0.0470
-验证 loss: 6.4234  acc: 0.0168
-Epoch 19/100
-训练 loss: 5.4831  acc: 0.0755
-验证 loss: 6.1106  acc: 0.0168
-Epoch 20/100
-训练 loss: 5.1114  acc: 0.1079
-验证 loss: 5.7327  acc: 0.0672
-Epoch 21/100
-训练 loss: 4.6490  acc: 0.1615
-验证 loss: 5.3587  acc: 0.1176
-Epoch 22/100
-训练 loss: 4.2408  acc: 0.2246
-验证 loss: 4.9244  acc: 0.1429
-Epoch 23/100
-训练 loss: 3.8026  acc: 0.2906
-验证 loss: 4.5795  acc: 0.2269
-Epoch 24/100
-训练 loss: 3.3527  acc: 0.3698
-验证 loss: 3.9711  acc: 0.2941
-Epoch 25/100
-训练 loss: 2.9343  acc: 0.4497
-验证 loss: 3.7226  acc: 0.4034
-Epoch 26/100
-训练 loss: 2.5496  acc: 0.5255
-验证 loss: 3.3800  acc: 0.3866
-Epoch 27/100
-训练 loss: 2.1868  acc: 0.5921
-验证 loss: 3.1049  acc: 0.4622
-Epoch 28/100
-训练 loss: 1.8890  acc: 0.6525
-验证 loss: 2.9053  acc: 0.4454
-Epoch 29/100
-训练 loss: 1.6091  acc: 0.7058
-验证 loss: 2.5711  acc: 0.5714
-Epoch 30/100
-训练 loss: 1.3812  acc: 0.7499
-验证 loss: 2.2825  acc: 0.5882
-Epoch 31/100
-训练 loss: 1.2180  acc: 0.7784
-验证 loss: 2.2222  acc: 0.6387
-Epoch 32/100
-训练 loss: 1.0300  acc: 0.8116
-验证 loss: 2.0499  acc: 0.6387
-Epoch 33/100
-训练 loss: 0.8849  acc: 0.8387
-验证 loss: 2.0334  acc: 0.6050
-Epoch 34/100
-训练 loss: 0.7959  acc: 0.8506
-验证 loss: 1.7162  acc: 0.6807
-Epoch 35/100
-训练 loss: 0.7042  acc: 0.8656
-验证 loss: 1.7133  acc: 0.6891
-Epoch 36/100
-训练 loss: 0.6262  acc: 0.8798
-验证 loss: 1.4584  acc: 0.6975
-Epoch 37/100
-训练 loss: 0.5802  acc: 0.8857
-验证 loss: 1.3735  acc: 0.7479
-Epoch 38/100
-训练 loss: 0.5280  acc: 0.8986
-验证 loss: 1.5741  acc: 0.6723
-Epoch 39/100
-训练 loss: 0.4709  acc: 0.9075
-验证 loss: 1.2989  acc: 0.7815
-Epoch 40/100
-训练 loss: 0.4455  acc: 0.9074
-验证 loss: 1.3334  acc: 0.7647
-Epoch 41/100
-训练 loss: 0.4105  acc: 0.9170
-验证 loss: 1.1654  acc: 0.7899
-Epoch 42/100
-训练 loss: 0.3547  acc: 0.9270
-验证 loss: 1.2172  acc: 0.7815
-Epoch 43/100
-训练 loss: 0.3560  acc: 0.9248
-验证 loss: 1.1357  acc: 0.7815
-Epoch 44/100
-训练 loss: 0.3287  acc: 0.9308
-验证 loss: 1.1276  acc: 0.7899
-Epoch 45/100
-训练 loss: 0.3099  acc: 0.9323
-验证 loss: 1.0238  acc: 0.8067
-Epoch 46/100
-训练 loss: 0.3200  acc: 0.9293
-验证 loss: 1.1905  acc: 0.7563
-Epoch 47/100
-训练 loss: 0.2784  acc: 0.9373
-验证 loss: 1.0754  acc: 0.8151
-Epoch 48/100
-训练 loss: 0.2801  acc: 0.9361
-验证 loss: 1.0531  acc: 0.7899
-Epoch 49/100
-训练 loss: 0.2726  acc: 0.9361
-验证 loss: 1.1032  acc: 0.8151
-Epoch 50/100
-训练 loss: 0.2477  acc: 0.9426
-验证 loss: 0.9634  acc: 0.8319
-Epoch 51/100
-训练 loss: 0.2475  acc: 0.9424
-验证 loss: 0.8731  acc: 0.8067
-Epoch 52/100
-训练 loss: 0.2385  acc: 0.9441
-验证 loss: 0.8254  acc: 0.8319
-Epoch 53/100
-训练 loss: 0.2229  acc: 0.9461
-验证 loss: 0.9612  acc: 0.8319
-Epoch 54/100
-训练 loss: 0.2150  acc: 0.9495
-验证 loss: 0.8655  acc: 0.8235
-Epoch 55/100
-训练 loss: 0.2049  acc: 0.9501
-验证 loss: 0.8837  acc: 0.8235
-Epoch 56/100
-训练 loss: 0.2030  acc: 0.9501
-验证 loss: 0.8246  acc: 0.8571
-Epoch 57/100
-训练 loss: 0.1877  acc: 0.9555
-验证 loss: 0.8431  acc: 0.8487
-Epoch 58/100
-训练 loss: 0.1979  acc: 0.9523
-验证 loss: 0.7900  acc: 0.8403
-Epoch 59/100
-训练 loss: 0.1788  acc: 0.9546
-验证 loss: 1.0294  acc: 0.8319
-Epoch 60/100
-训练 loss: 0.1716  acc: 0.9575
-验证 loss: 0.8838  acc: 0.8319
-Epoch 61/100
-训练 loss: 0.1922  acc: 0.9526
-验证 loss: 0.9527  acc: 0.8067
-Epoch 62/100
-训练 loss: 0.1728  acc: 0.9578
-验证 loss: 0.7561  acc: 0.8739
-Epoch 63/100
-训练 loss: 0.1768  acc: 0.9543
-验证 loss: 0.7572  acc: 0.8824
-Epoch 64/100
-训练 loss: 0.1642  acc: 0.9568
-验证 loss: 0.8450  acc: 0.8403
-Epoch 65/100
-训练 loss: 0.1569  acc: 0.9574
-验证 loss: 0.7754  acc: 0.8319
-Epoch 66/100
-训练 loss: 0.1613  acc: 0.9566
-验证 loss: 0.8515  acc: 0.8151
-Epoch 67/100
-训练 loss: 0.1429  acc: 0.9634
-验证 loss: 0.7750  acc: 0.8655
-Epoch 68/100
-训练 loss: 0.1675  acc: 0.9557
-验证 loss: 0.8630  acc: 0.8403
-Epoch 69/100
-训练 loss: 0.1521  acc: 0.9599
-验证 loss: 0.8289  acc: 0.8739
-Epoch 70/100
-训练 loss: 0.1445  acc: 0.9613
-验证 loss: 0.7981  acc: 0.8655
-Epoch 71/100
-训练 loss: 0.1423  acc: 0.9606
-验证 loss: 0.8031  acc: 0.8655
-Epoch 72/100
-训练 loss: 0.1398  acc: 0.9628
-验证 loss: 0.7020  acc: 0.8487
-Epoch 73/100
-训练 loss: 0.1411  acc: 0.9621
-验证 loss: 0.6859  acc: 0.8824
-Epoch 74/100
-训练 loss: 0.1367  acc: 0.9625
-验证 loss: 0.6863  acc: 0.8571
-Epoch 75/100
-训练 loss: 0.1319  acc: 0.9643
-验证 loss: 0.7027  acc: 0.8908
-Epoch 76/100
-训练 loss: 0.1367  acc: 0.9631
-验证 loss: 0.7652  acc: 0.8571
-Epoch 77/100
-训练 loss: 0.1328  acc: 0.9625
-验证 loss: 0.7513  acc: 0.8655
-Epoch 78/100
-训练 loss: 0.1257  acc: 0.9651
-验证 loss: 0.7589  acc: 0.8319
-Epoch 79/100
-训练 loss: 0.1270  acc: 0.9641
-验证 loss: 0.7510  acc: 0.8655
-Epoch 80/100
-训练 loss: 0.1177  acc: 0.9668
-验证 loss: 0.6782  acc: 0.9076
-Epoch 81/100
-训练 loss: 0.1191  acc: 0.9680
-验证 loss: 0.6468  acc: 0.8655
-Epoch 82/100
-训练 loss: 0.1296  acc: 0.9639
-验证 loss: 0.7222  acc: 0.8571
-Epoch 83/100
-训练 loss: 0.1157  acc: 0.9659
-验证 loss: 0.6825  acc: 0.8992
-Epoch 84/100
-训练 loss: 0.1114  acc: 0.9692
-验证 loss: 0.6413  acc: 0.8824
-Epoch 85/100
-训练 loss: 0.1130  acc: 0.9677
-验证 loss: 0.7086  acc: 0.9160
-Epoch 86/100
-训练 loss: 0.1112  acc: 0.9680
-验证 loss: 0.7210  acc: 0.8655
-Epoch 87/100
-训练 loss: 0.1048  acc: 0.9689
-验证 loss: 0.7532  acc: 0.8908
-Epoch 88/100
-训练 loss: 0.1162  acc: 0.9677
-验证 loss: 0.7907  acc: 0.8655
-Epoch 89/100
-训练 loss: 0.1112  acc: 0.9681
-验证 loss: 0.7027  acc: 0.8655
-Epoch 90/100
-训练 loss: 0.1034  acc: 0.9701
-验证 loss: 0.6432  acc: 0.9076
-Epoch 91/100
-训练 loss: 0.1007  acc: 0.9700
-验证 loss: 0.6657  acc: 0.8739
-Epoch 92/100
-训练 loss: 0.1067  acc: 0.9692
-验证 loss: 0.6799  acc: 0.8908
-Epoch 93/100
-训练 loss: 0.1096  acc: 0.9685
-验证 loss: 0.7059  acc: 0.9076
-Epoch 94/100
-训练 loss: 0.1213  acc: 0.9656
-验证 loss: 0.6733  acc: 0.8908
-Epoch 95/100
-训练 loss: 0.1132  acc: 0.9662
-验证 loss: 0.7508  acc: 0.8824
-Epoch 96/100
-训练 loss: 0.0955  acc: 0.9717
-验证 loss: 0.6238  acc: 0.8824
-Epoch 97/100
-训练 loss: 0.1094  acc: 0.9691
-验证 loss: 0.7919  acc: 0.8571
-Epoch 98/100
-训练 loss: 0.1084  acc: 0.9686
-验证 loss: 0.7066  acc: 0.8908
-Epoch 99/100
-训练 loss: 0.1007  acc: 0.9691
-验证 loss: 0.5597  acc: 0.8992
-Epoch 100/100
-训练 loss: 0.0935  acc: 0.9713
-验证 loss: 0.7277  acc: 0.8824
-训练完成，验证集最高准确率: 0.9160
+正在加载模型权重: cow_model_final_trained50.pth
+模型权重加载成功。
+评估加载模型的初始性能...
+加载模型初始验证 loss: 0.9144  acc: 0.8487
+Epoch 1/50
+训练 loss: 0.0944  acc: 0.9733
+验证 loss: 0.9792  acc: 0.8403
+Epoch 2/50
+训练 loss: 0.0972  acc: 0.9712
+验证 loss: 1.0111  acc: 0.8319
+Epoch 3/50
+训练 loss: 0.0906  acc: 0.9736
+验证 loss: 1.0042  acc: 0.8403
+Epoch 4/50
+训练 loss: 0.0904  acc: 0.9734
+验证 loss: 0.9818  acc: 0.8235
+Epoch 5/50
+训练 loss: 0.0920  acc: 0.9721
+验证 loss: 0.9769  acc: 0.8235
+Epoch 6/50
+训练 loss: 0.0868  acc: 0.9733
+验证 loss: 0.9322  acc: 0.8403
+Epoch 7/50
+训练 loss: 0.0831  acc: 0.9737
+验证 loss: 0.9925  acc: 0.8403
+Epoch 8/50
+训练 loss: 0.0863  acc: 0.9731
+验证 loss: 0.9644  acc: 0.8319
+Epoch 9/50
+训练 loss: 0.0799  acc: 0.9742
+验证 loss: 0.9279  acc: 0.8319
+Epoch 10/50
+训练 loss: 0.0825  acc: 0.9737
+验证 loss: 0.9574  acc: 0.8319
+Epoch 11/50
+训练 loss: 0.0852  acc: 0.9733
+验证 loss: 0.9222  acc: 0.8235
+Epoch 12/50
+训练 loss: 0.0809  acc: 0.9739
+验证 loss: 0.9144  acc: 0.8403
+--- 发现更优模型 (验证 loss: 0.9144, acc: 0.8403)，已更新最佳权重。---
+Epoch 13/50
+训练 loss: 0.0773  acc: 0.9755
+验证 loss: 0.8903  acc: 0.8403
+--- 发现更优模型 (验证 loss: 0.8903, acc: 0.8403)，已更新最佳权重。---
+Epoch 14/50
+训练 loss: 0.0760  acc: 0.9744
+验证 loss: 0.9070  acc: 0.8403
+Epoch 15/50
+训练 loss: 0.0751  acc: 0.9764
+验证 loss: 0.9275  acc: 0.8403
+Epoch 16/50
+训练 loss: 0.0720  acc: 0.9760
+验证 loss: 0.8814  acc: 0.8487
+--- 发现更优模型 (验证 loss: 0.8814, acc: 0.8487)，已更新最佳权重。---
+Epoch 17/50
+训练 loss: 0.0819  acc: 0.9736
+验证 loss: 0.8663  acc: 0.8487
+--- 发现更优模型 (验证 loss: 0.8663, acc: 0.8487)，已更新最佳权重。---
+Epoch 18/50
+训练 loss: 0.0785  acc: 0.9747
+验证 loss: 0.8948  acc: 0.8319
+Epoch 19/50
+训练 loss: 0.0788  acc: 0.9756
+验证 loss: 0.8743  acc: 0.8403
+Epoch 20/50
+训练 loss: 0.0729  acc: 0.9754
+验证 loss: 0.8703  acc: 0.8487
+Epoch 21/50
+训练 loss: 0.0705  acc: 0.9761
+验证 loss: 0.8983  acc: 0.8655
+Epoch 22/50
+训练 loss: 0.0774  acc: 0.9757
+验证 loss: 0.8917  acc: 0.8487
+Epoch 23/50
+训练 loss: 0.0821  acc: 0.9736
+验证 loss: 0.8816  acc: 0.8403
+Epoch 24/50
+训练 loss: 0.0728  acc: 0.9745
+验证 loss: 0.8637  acc: 0.8403
+--- 发现更优模型 (验证 loss: 0.8637, acc: 0.8403)，已更新最佳权重。---
+Epoch 25/50
+训练 loss: 0.0720  acc: 0.9750
+验证 loss: 0.8684  acc: 0.8403
+Epoch 26/50
+训练 loss: 0.0710  acc: 0.9766
+验证 loss: 0.8818  acc: 0.8487
+Epoch 27/50
+训练 loss: 0.0771  acc: 0.9748
+验证 loss: 0.8803  acc: 0.8403
+Epoch 28/50
+训练 loss: 0.0699  acc: 0.9769
+验证 loss: 0.8815  acc: 0.8403
+Epoch 29/50
+训练 loss: 0.0735  acc: 0.9760
+验证 loss: 0.8944  acc: 0.8403
+Epoch 30/50
+训练 loss: 0.0692  acc: 0.9777
+验证 loss: 0.8681  acc: 0.8319
+Epoch 31/50
+训练 loss: 0.0855  acc: 0.9724
+验证 loss: 0.9003  acc: 0.8403
+Epoch 32/50
+训练 loss: 0.0666  acc: 0.9788
+验证 loss: 0.9028  acc: 0.8487
+Epoch 33/50
+训练 loss: 0.0811  acc: 0.9733
+验证 loss: 0.8887  acc: 0.8319
+Epoch 34/50
+训练 loss: 0.0716  acc: 0.9767
+验证 loss: 0.8856  acc: 0.8487
+Epoch 35/50
+训练 loss: 0.0790  acc: 0.9754
+验证 loss: 0.8886  acc: 0.8403
+Epoch 36/50
+训练 loss: 0.0806  acc: 0.9740
+验证 loss: 0.8826  acc: 0.8319
+Epoch 37/50
+训练 loss: 0.0694  acc: 0.9750
+验证 loss: 0.8670  acc: 0.8235
+Epoch 38/50
+训练 loss: 0.0736  acc: 0.9752
+验证 loss: 0.8750  acc: 0.8319
+Epoch 39/50
+训练 loss: 0.0761  acc: 0.9737
+验证 loss: 0.8739  acc: 0.8403
+Epoch 40/50
+训练 loss: 0.0696  acc: 0.9768
+验证 loss: 0.8827  acc: 0.8403
+Epoch 41/50
+训练 loss: 0.0722  acc: 0.9751
+验证 loss: 0.8703  acc: 0.8487
+Epoch 42/50
+训练 loss: 0.0769  acc: 0.9748
+验证 loss: 0.8704  acc: 0.8319
+Epoch 43/50
+训练 loss: 0.0719  acc: 0.9757
+验证 loss: 0.8950  acc: 0.8319
+Epoch 44/50
+训练 loss: 0.0725  acc: 0.9748
+验证 loss: 0.8751  acc: 0.8403
+Epoch 45/50
+训练 loss: 0.0700  acc: 0.9763
+验证 loss: 0.8521  acc: 0.8403
+--- 发现更优模型 (验证 loss: 0.8521, acc: 0.8403)，已更新最佳权重。---
+Epoch 46/50
+训练 loss: 0.0711  acc: 0.9772
+验证 loss: 0.8856  acc: 0.8403
+Epoch 47/50
+训练 loss: 0.0787  acc: 0.9736
+验证 loss: 0.8784  acc: 0.8235
+Epoch 48/50
+训练 loss: 0.0759  acc: 0.9757
+验证 loss: 0.8629  acc: 0.8319
+Epoch 49/50
+训练 loss: 0.0710  acc: 0.9760
+验证 loss: 0.8637  acc: 0.8319
+Epoch 50/50
+训练 loss: 0.0796  acc: 0.9734
+验证 loss: 0.8783  acc: 0.8403
+
+训练完成。在验证集上观察到的最佳 loss: 0.8521, 对应的最佳准确率: 0.8403
+最佳模型已保存到 cow_model_final_trained50.pth

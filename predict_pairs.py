@@ -4,12 +4,12 @@ import os
 from tqdm import tqdm
 
 # 配置
-FEATURE_FILE = "features_test_detec3.npz"  # 由 extract_features.py 生成
+FEATURE_FILE = "cow_model_final_trained50.npz"  # 由 extract_features.py 生成
 TEST_CSV = "test-0930.csv"
-OUT_SUB = "./submission/submission_080.csv"
+OUT_SUB = "./submission/submission_50.csv"
 # COMP_SUB="submission.csv"
 TEST_DIR = "./test/test"  # 用于容错（如果需要检查文件是否存在）
-THRESHOLD = 0.80  # 余弦相似度阈值，建议用验证集调优
+THRESHOLD = 0.77  # 余弦相似度阈值，建议用验证集调优
 
 # 加载特征
 data = np.load(FEATURE_FILE, allow_pickle=True)
