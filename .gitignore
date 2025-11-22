@@ -1,4 +1,6 @@
 *.pth
+*.npz
+*.csv
 
 LabeledImages/
 UnlabeldImages/
@@ -12,3 +14,4 @@ __pycache__/
 train/
 test/
 .git/
+test-new/

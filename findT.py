@@ -6,13 +6,13 @@ from sklearn.metrics import f1_score, accuracy_score, precision_score, recall_sc
 import matplotlib.pyplot as plt
 
 # 配置
-VALIDATION_FEATURE_FILE = "features_validation.npz" # 验证集特征文件
+VALIDATION_FEATURE_FILE = "features_validation18.npz" # 验证集特征文件
 VALIDATION_PAIRS_CSV = "val_pairs_from_train_with_paths.csv" # 验证集对及其真实标签
 
 # 阈值搜索范围
 THRESHOLD_MIN = 0.50
 THRESHOLD_MAX = 0.95
-THRESHOLD_STEP = 0.01
+THRESHOLD_STEP = 0.005
 
 # === 更改: 定义新的分隔符 ===
 PAIR_SEPARATOR = "__"

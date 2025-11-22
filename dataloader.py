@@ -173,10 +173,10 @@ class CowImageDataset(Dataset):
 def make_transforms(img_size: int = 512):
     # 更强的训练增强
     train_transform = transforms.Compose([
-        transforms.RandomResizedCrop(img_size, scale=(0.6, 1.0), ratio=(0.75, 1.33)),
+        transforms.RandomResizedCrop(img_size, scale=(0.8, 1.0)),
         transforms.RandomHorizontalFlip(p=0.5),
-        # transforms.RandomApply([transforms.ColorJitter(0.4, 0.4, 0.4, 0.1)], p=0.8),
-        transforms.RandomGrayscale(p=0.02),
+        transforms.RandomApply([transforms.ColorJitter(0.1,0.1,0.1,0.02)]),
+        # transforms.RandomGrayscale(p=0.02),
         # transforms.RandomApply([transforms.GaussianBlur(kernel_size=3)], p=0.2),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.485, 0.456, 0.406],
@@ -197,11 +197,10 @@ def make_dataloaders(root_dir: Path,
                      batch_size: int = 32,
                      num_workers: int = 4,
                      train_ratio: float = 0.8,
-                     seed: int = 42,
-                     use_weighted_sampler: bool = True):
+                     seed: int = 42):
     """
     返回 train_loader, val_loader, meta
-    use_weighted_sampler: 是否使用 WeightedRandomSampler 来缓解类不平衡（推荐 True）
+
     """
     # cow_folders = get_cow_folders(root_dir)
     # train_folders, val_folders = train_val_split(cow_folders, train_ratio, seed)
@@ -212,16 +211,8 @@ def make_dataloaders(root_dir: Path,
     train_dataset = CowImageDataset(train_folders, transform=train_transform,type="train")
     val_dataset = CowImageDataset(val_folders, transform=val_transform,type="val")
 
-    if use_weighted_sampler:
-        # 构造按类权重的 sampler，样本权重 = 1 / n_samples_per_class
-        labels = [s[1] for s in train_dataset.samples]
-        count = Counter(labels)
-        weights = [1.0 / count[l] for l in labels]
-        sampler = WeightedRandomSampler(weights, num_samples=len(weights), replacement=True)
-        train_loader = DataLoader(train_dataset, batch_size=batch_size, sampler=sampler,
-                                  num_workers=num_workers, pin_memory=True)
-    else:
-        train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True,
+    
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True,
                                   num_workers=num_workers, pin_memory=True)
 
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False,

@@ -14,18 +14,11 @@ print(f"使用设备: {device}")
 # 加载数据
 train_loader, val_loader, meta=get_dataloader()
 
+LOAD_WEIGHTS_PATH = 'cow_model.pth'
 
-# --- 新增: 配置要加载的权重文件路径 ---
-# 如果您想加载之前保存的 cow_model3.pth，就保持这个路径
-# 如果您想从另一个文件加载，请修改这里
-LOAD_WEIGHTS_PATH = 'cow_model_final_trained50.pth'
-# ------------------------------------
-
-
-# 1. 定义模型
 num_classes = meta['train_num_classes']
 print(num_classes)
-model = models.resnet50(pretrained=True) # pretrained=True 会加载ImageNet预训练权重
+model = models.resnet18(pretrained=True) 
 
 # 替换最后的全连接层，使其适应您的数据集类别数量
 model.fc = nn.Linear(model.fc.in_features, num_classes)
@@ -72,11 +65,9 @@ if os.path.exists(LOAD_WEIGHTS_PATH):
     best_model_wts = copy.deepcopy(model.state_dict()) # 更新 best_model_wts 为加载模型的权重
     
     print(f"加载模型初始验证 loss: {initial_epoch_val_loss:.4f}  acc: {initial_epoch_val_acc:.4f}")
-    # ------------------------------------------------------------------
 else:
     print(f"未找到预训练权重文件: {LOAD_WEIGHTS_PATH}，将从头开始训练 (使用ImageNet预训练权重作为起点)。")
 
-# ------------------------------------------
 
 for epoch in range(num_epochs):
     print(f"Epoch {epoch + 1}/{num_epochs}")
@@ -135,6 +126,6 @@ print(f"\n训练完成。在验证集上观察到的最佳 loss: {best_loss:.4f}
 
 # 保存最终（即整个训练过程中表现最佳的）模型
 # 建议使用一个不同的文件名，以防您想保留以前的训练结果
-FINAL_SAVE_PATH = 'cow_model_final_trained50.pth' 
+FINAL_SAVE_PATH = 'cow_model.pth' 
 torch.save(model.state_dict(), FINAL_SAVE_PATH)
 print(f"最佳模型已保存到 {FINAL_SAVE_PATH}")
